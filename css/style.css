@@ -1,0 +1,227 @@
+nav.navbar.navbar-default {
+    background: #000;
+}
+.item img{	
+	height: 500px !important;
+}
+.top-bar.clearfix h1 {
+    color:#aa2222;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+.top-bar.clearfix {
+    background: rgba(234, 223, 223, 0.79);
+}
+.test {
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+.test {
+    text-align: center;
+    color: #c75611;
+    font-weight: bold;
+}
+h4 span {
+    color: #007513;
+}
+.call p {
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    color: #9a1616;
+    text-transform: capitalize;
+    padding-top: 12px;
+    font-size: 23px;
+}
+.call{
+   padding: 17px 0px;
+}
+.call hr {
+    margin: 0px;
+}
+h2.intro-text.text-center {
+    background: #d3953a;
+    padding: 19px;
+    color: #ffffff;
+    font-size: 30px;
+}
+h2.intro-text.text-center p {
+    font-size: 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #e68110 !important;
+    border-color: #e68110 !important;
+    border-radius: 0px !important;
+    padding: 10px 29px;
+}
+h3.location {
+    /* background: #66d9c1 !important; */
+    text-align: center !important;
+    padding: 20px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 30px;
+}
+.container-fluid.locations {
+    background: #a48417;
+}
+.address {
+    background: #bf5710;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    min-height: 210px;
+    border-radius: 11px;
+}
+.address h1 {
+    color: #00e006;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
+}
+.col-md-6 img {
+    height: 200px;
+}
+h2.intro-text.text-center p {
+    font-size: 25px;
+    font-weight: bold;
+}
+.-galerry-content img {
+    height: 420px;
+    width: 100%;
+    margin-top: 20px;
+    border: 5px solid #350202;
+    cursor: pointer;
+    padding: 6px;
+}
+.img-responsive:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(50%);
+    background: #000;
+}
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+img.modal-content {
+    margin-top: -80px;
+    height: 500px;
+    width: 507px;
+}
+.col-lg-12.form {
+    background: rgba(0, 0, 0, 0.62);
+    color: #fff;
+}
+.content-wrapper {
+    background: rgba(12, 11, 11, 0.7);
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7 !important;
+    float: left !important;
+}
+footer {   
+    background: rgb(0, 0, 0) !important;
+    color: #fff;
+}
+footer p {
+    font-size: 1.20em;
+    line-height: 1.6;
+    color: #969696 !important;
+}
+span.small-text {
+    font-size: 18px;
+    color: #eaeaea;
+    font-weight: bold;
+}
+img.img-responsive.img-left.col-md-2 {
+    height: 200px;
+    float: right;
+    width: 200px;
+}
+.carousel-inner {
+    margin-top: -20px;
+}
